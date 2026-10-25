@@ -1,0 +1,34 @@
+{
+  "collected_at": "2026-09-19T17:23:25.744403+00:00",
+  "window_days": 7,
+  "sources": [
+    "Times of India",
+    "The Hindu",
+    "Hindustan Times",
+    "NDTV",
+    "The Indian Express"
+  ],
+  "per_source_count": {
+    "Times of India": 25,
+    "The Hindu": 25,
+    "Hindustan Times": 25,
+    "NDTV": 25,
+    "The Indian Express": 25
+  },
+  "total_documents": 125,
+  "new_documents": 50,
+  "per_source_stats": {
+    "NDTV": {
+      "feeds_tried": 2,
+      "entries": 40,
+      "fetched": 0,
+      "added": 25
+    },
+    "The Indian Express": {
+      "feeds_tried": 1,
+      "entries": 200,
+      "fetched": 0,
+      "added": 25
+    }
+  }
+}
