@@ -13,6 +13,7 @@ topics/
 qrels/
   qrels.txt                # Frozen relevance judgments (487 entries)
 runs/
+  pool.txt                  # Pooled documents used to create the frozen qrels
   bm25.txt                 # Baseline first-pass retrieval
   rocchio.txt              # Rocchio PRF baseline
   rm3.txt                  # RM3 PRF baseline
@@ -43,8 +44,13 @@ src/
 ## Setup
 
 ```bash
-pip install nltk sentence-transformers numpy scipy
+pip install -r requirements.txt
 ```
+
+The first execution downloads the required NLTK resources and the MiniLM
+sentence-transformer model used by the contextual signal. The baseline-only
+scripts do not require the contextual model, but the full experiment runner
+does.
 
 ## Usage
 
@@ -67,6 +73,9 @@ pip install nltk sentence-transformers numpy scipy
    ```bash
    python src/verify_all.py
    ```
+
+All paths are resolved relative to the repository root, so the commands above
+can be run from any working directory after cloning the repository.
 
 ## Results
 
