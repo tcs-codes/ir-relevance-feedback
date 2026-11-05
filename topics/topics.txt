@@ -1,0 +1,104 @@
+<top>
+<num> Number: 301
+<title> DUSU 2026 election results
+<desc> Documents discussing the Delhi University Students Union (DUSU) 2026 election, including vote counts, declared winners, and round-wise results.
+<narr> Relevant: reports on DUSU 2026 voting outcome, winning margins, president and secretary post results. Not relevant: general student politics unrelated to DUSU 2026.
+</top>
+
+<top>
+<num> Number: 302
+<title> ABVP and NSUI DUSU candidates
+<desc> Documents covering ABVP or NSUI candidates contesting the DUSU 2026 election, their campaign activities, and party backing.
+<narr> Relevant: named candidates from ABVP or NSUI, their election strategies or results. Not relevant: DUSU coverage without mention of these parties.
+</top>
+
+<top>
+<num> Number: 303
+<title> Delhi voter list SIR notices
+<desc> Documents about Special Intensive Revision (SIR) notices sent to Delhi residents or politicians regarding electoral rolls and voter list verification.
+<narr> Relevant: SIR notices, electoral roll revision in Delhi, voter identity challenges. Not relevant: election results without voter-list controversy.
+</top>
+
+<top>
+<num> Number: 304
+<title> IIT Bombay student suicide campus death
+<desc> Documents reporting on the student suicide at IIT Bombay, family response, and subsequent investigation by police or crime branch.
+<narr> Relevant: IIT Bombay death, parents reaction, police investigation, campus mental health. Not relevant: suicides at other institutions.
+</top>
+
+<top>
+<num> Number: 305
+<title> India Asian Games 2026 Nagasaki athletes
+<desc> Documents covering Indian athletes participating in the 2026 Asian Games held in Nagasaki, Japan, including medal results and opening ceremony.
+<narr> Relevant: Indian contingent, medals, events at Nagasaki 2026 Asian Games. Not relevant: Asian Games from prior years.
+</top>
+
+<top>
+<num> Number: 306
+<title> Congress Trinamool alliance Bengal by-election
+<desc> Documents about the relationship between Congress and Trinamool Congress, especially regarding Nandigram by-election and electoral cooperation.
+<narr> Relevant: Congress-TMC relations, Mamata Banerjee, Bengal elections, Nandigram. Not relevant: Congress relations with other parties.
+</top>
+
+<top>
+<num> Number: 307
+<title> Ajit Doval China intelligence career IIT Roorkee
+<desc> Documents in which NSA Ajit Doval discusses his intelligence career, including events involving China, at the IIT Roorkee convocation.
+<narr> Relevant: Doval speech, IIT Roorkee convocation, China-related incidents. Not relevant: other NSA activities unrelated to this event.
+</top>
+
+<top>
+<num> Number: 308
+<title> UPI payment MDR charges split transactions
+<desc> Documents discussing UPI Merchant Discount Rate (MDR) charges, transaction splitting rules, and Reserve Bank or government payment policy.
+<narr> Relevant: UPI MDR, payment limits, RBI policy on digital payments. Not relevant: general UPI usage without policy discussion.
+</top>
+
+<top>
+<num> Number: 309
+<title> Kerala teachers KSTA Secretariat protest education
+<desc> Documents about KSTA (Kerala School Teachers Association) protests, their march to the Secretariat, and demands on education policy.
+<narr> Relevant: KSTA march, teacher demands, Kerala education policy. Not relevant: teacher protests in other states.
+</top>
+
+<top>
+<num> Number: 310
+<title> child abuse domestic violence India court case
+<desc> Documents reporting cases of child abuse, physical harm to minors, and related police or court proceedings in India.
+<narr> Relevant: child assault, parental violence, court intervention on child safety. Not relevant: unrelated criminal cases.
+</top>
+
+<top>
+<num> Number: 311
+<title> Hindu minority girls abduction forced conversion marriage
+<desc> Documents covering incidents of abduction, forced religious conversion, or forced marriage of Hindu minority girls in India or Pakistan.
+<narr> Relevant: abduction, conversion, minority rights, court or police response. Not relevant: voluntary religious conversion.
+</top>
+
+<top>
+<num> Number: 312
+<title> Vande Bharat train service expansion routes
+<desc> Documents about new Vande Bharat Express train routes, services launched, or coverage of the train network expansion across Indian states.
+<narr> Relevant: Vande Bharat route launch, Indian Railways semi-high-speed train. Not relevant: general Indian Railways news without Vande Bharat.
+</top>
+
+<top>
+<num> Number: 313
+<title> Madhya Pradesh state government politics BJP
+<desc> Documents covering Madhya Pradesh government decisions, BJP political activities, or state-level political news from MP.
+<narr> Relevant: MP government, BJP activities in MP, state political developments. Not relevant: national BJP news without MP focus.
+</top>
+
+<top>
+<num> Number: 314
+<title> US border phone search digital privacy ruling
+<desc> Documents about US court rulings permitting border agents to search phones or devices and related digital privacy implications.
+<narr> Relevant: US border phone search, digital privacy law, court ruling on device access. Not relevant: physical border security unrelated to digital data.
+</top>
+
+<top>
+<num> Number: 315
+<title> India Scindia Congress political controversy viral video
+<desc> Documents about Jyotiraditya Scindia's viral video, Congress party criticism of him, and related political controversy.
+<narr> Relevant: Scindia viral video, Congress response, political controversy. Not relevant: Scindia on other unrelated topics.
+</top>
