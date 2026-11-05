@@ -94,6 +94,8 @@ def verify_runs():
         "ablation_no_P.txt",
         "ablation_no_D.txt",
         "ablation_no_C.txt",
+        "dense_faiss.txt",
+        "prf_tuned.txt",
     ]
 
     found_names = [os.path.basename(r) for r in run_files]

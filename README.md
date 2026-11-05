@@ -17,6 +17,7 @@ runs/
   bm25.txt                 # Baseline first-pass retrieval
   rocchio.txt              # Rocchio PRF baseline
   rm3.txt                  # RM3 PRF baseline
+  dense_faiss.txt          # Dense semantic retrieval baseline (MiniLM + FAISS)
   prf_frequency.txt        # Frequency signal (F)
   prf_association.txt      # Query-term association signal (A)
   prf_fa.txt               # Combined F + A
@@ -25,18 +26,24 @@ runs/
   prf_fapd.txt             # 4 Lexical signals (F + A + P + D)
   prf_contextual.txt       # Contextual passage relevance (C)
   prf_full.txt             # Proposed 5-signal fusion model
+  prf_tuned.txt            # Optimal grid-tuned weights run
   ablation_*.txt           # Leave-one-out ablation runs
 results/
-  evaluation_summary.csv   # MAP, nDCG@10, and P@10 for all 16 runs
+  evaluation_summary.csv   # MAP, nDCG@10, and P@10 for all runs
   per_query_results.csv    # Per-topic AP, nDCG, and P@10 breakdown
   statistical_tests.csv    # Paired t-test statistics and p-values
   expansion_terms_analysis.csv # Expansion terms selected per topic
+  weight_tuning_results.csv    # Grid search results over signal weights
+  weight_sensitivity.csv       # Single-signal sensitivity analysis
+  profiling_summary.csv        # Runtime latency and memory benchmarks
 src/
   preprocess.py            # Tokenization, stopword removal, and Porter stemming
   retrieve_baselines.py    # BM25, Rocchio, and RM3 retrieval engines
+  dense_retrieval.py       # Dense FAISS retrieval using MiniLM embeddings
   auto_judge.py            # Generates ground truth judgments
   feedback_signals.py      # Core functions for F, A, P, D, and C signals
   run_experiments.py       # Full PRF pipeline, ablation runs, and stats
+  tune_and_profile.py      # Grid search weight tuning and latency profiling
   evaluate.py              # MAP, nDCG@10, and P@10 calculator
   verify_all.py            # Pipeline verification script
 ```
@@ -81,6 +88,7 @@ can be run from any working directory after cloning the repository.
 
 | Model / System | Signals Used | MAP | nDCG@10 | P@10 |
 | :--- | :--- | :---: | :---: | :---: |
+| **PRF Tuned Fusion** | 0.2A + 0.5P + 0.3D (Grid Search) | 0.9496 | 0.9636 | 0.5533 |
 | **BM25** | Unexpanded Query | 0.9445 | 0.9630 | 0.5600 |
 | **Ablation (No F)** | A + P + D + C | 0.9214 | 0.9514 | 0.5400 |
 | **Proposed Lexical (FAPD)** | F + A + P + D | 0.9153 | 0.9544 | 0.5467 |
@@ -95,4 +103,5 @@ can be run from any working directory after cloning the repository.
 | **RM3** | Top 10 Docs, 20 terms | 0.8737 | 0.9291 | 0.5267 |
 | **Ablation (No A)** | F + P + D + C | 0.8715 | 0.9264 | 0.5267 |
 | **PRF Discriminative**| D alone | 0.8697 | 0.9335 | 0.5400 |
+| **Dense FAISS** | all-MiniLM-L6-v2 dense embeddings | 0.6952 | 0.7979 | 0.4267 |
 | **Rocchio** | Top 10 positive, ranks 11-20 negative | 0.5233 | 0.5929 | 0.4733 |
